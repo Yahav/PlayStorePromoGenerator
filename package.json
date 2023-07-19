@@ -1,0 +1,30 @@
+{
+  "name": "promoimage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "generatePromoGraphic": "node generatePromoGraphics.js"
+  },
+  "generateConfig": {
+    "promo": {
+      "logoUrl": "./logo.png",
+      "backgroundColor": "#bd1818",
+      "type": "gradient",
+      "destinationFile": "./promo.png"
+    },
+    "splashScreen": {
+      "logoUrl": "./logo.png",
+      "logoSize": "200",
+      "backgroundColor": "#000000"
+    },
+    "appIcon": {
+      "logoSrc": "./src/assets/app_logo1.png"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "color": "^4.2.3"
+  }
+}
